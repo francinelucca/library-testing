@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://gist.githubusercontent.com/mattrosno/82ab63d4c2a709b3878a73b1f977a760/raw/202e9a0550bca3d08e3db9fb07097c14896915c6/carbon-resources.schema.json
 library:
-  id: carbon-react
-  name: Carbon React
+  id: design-kit
+  name: DesignKit Library
   description: React implementation of Carbon Components
   demoLinks:
     - type: storybook

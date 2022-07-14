@@ -1,0 +1,58 @@
+# yaml-language-server: $schema=https://gist.githubusercontent.com/mattrosno/82ab63d4c2a709b3878a73b1f977a760/raw/202e9a0550bca3d08e3db9fb07097c14896915c6/carbon-resources.schema.json
+library:
+  id: carbon-react
+  name: Carbon React
+  description: React implementation of Carbon Components
+  demoLinks:
+    - type: storybook
+      name: Storybook
+      action: link
+      url: https://react.carbondesignsystem.com
+  designKits:
+    carbon-white-sketch:
+      $ref: '#/designKits/carbon-white-sketch'
+    carbon-g10-sketch:
+      $ref: https://unpkg.com/@carbon-platform/resources/carbon.yml#/designKits/carbon-g10-sketch
+    carbon-g90-sketch:
+      name: Sketch gray 90 theme
+      tool: sketch
+      type: ui
+      status: stable
+      url: sketch://add-library/cloud/a324c6dd-df97-435e-b79f-3a29e04922fc
+      action: link
+  navData:
+    - title: A page
+      path: '/a-page.mdx'
+    - title: Another page
+      items:
+        - title: Sub page
+          path: '/another-page/sub-page.mdx'
+          hidden: true
+        - title: Another sub page
+          path: 'https://github.com/carbon-design-system/carbon-website/blob/main/src/pages/developing/react-tutorial/step-1.mdx'
+assets:
+  accordion:
+    name: Accordion
+    description:
+      An accordion is a vertically stacked list of headers that reveal or hide associated sections
+      of content.
+    status: stable
+    type: component
+    tags:
+      - content-element
+      - data-display
+    framework: react
+    platform: web
+    docs:
+      usagePath: 'https://github.com/carbon-design-system/carbon-website/blob/main/src/pages/components/accordion/usage.mdx'
+      stylePath: './components/accordion/styles.mdx'
+      codePath: './components/accordion/code.mdx'
+      accessibilityPath: './components/accordion/accessibility.mdx'
+designKits:
+  carbon-white-sketch:
+    name: Sketch white theme
+    tool: sketch
+    type: ui
+    status: stable
+    url: sketch://add-library/cloud/557b75ff-67d3-41ab-ada5-fa25447218c1
+    action: link

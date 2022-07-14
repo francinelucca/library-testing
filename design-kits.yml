@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://gist.githubusercontent.com/mattrosno/82ab63d4c2a709b3878a73b1f977a760/raw/202e9a0550bca3d08e3db9fb07097c14896915c6/carbon-resources.schema.json
+designKits:
+  carbon-white-sketch:
+    name: Sketch white theme
+    tool: sketch
+    type: ui
+    status: stable
+    url: sketch://add-library/cloud/557b75ff-67d3-41ab-ada5-fa25447218c1
+    action: link

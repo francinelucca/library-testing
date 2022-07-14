@@ -22,6 +22,16 @@ library:
       action: link
     carbon-white-figma:
       $ref: './design-kits.yml#/designKits/carbon-white-sketch'
+    unallowed-design-kit: 
+      $ref: https://unpkg.com/@carbon-platform/resources/carbon.yml#/designKits/carbon-g10-sketch
+    carbon-g10-figma:
+      $ref: '../../../../design-kits.yml#/designKits/carbon-white-sketch'
+    carbon-g90-figma:
+      $ref: './nonexistent-file.yml#/designKits/carbon-white-sketch'
+    carbon-g100-figma:
+      $ref: './design-kits.yml#/unexistentKey/carbon-white-sketch'
+    carbon-white-adobe-xd:
+      name: missing a lot of attributes
   navData:
     - title: A page
       path: '/a-page.mdx'

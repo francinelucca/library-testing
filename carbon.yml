@@ -30,8 +30,6 @@ library:
       $ref: './nonexistent-file.yml#/designKits/carbon-white-sketch'
     carbon-g100-figma:
       $ref: './design-kits.yml#/unexistentKey/carbon-white-sketch'
-    carbon-white-adobe-xd:
-      name: missing a lot of attributes
   navData:
     - title: A page
       path: '/a-page.mdx'

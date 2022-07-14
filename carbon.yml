@@ -20,6 +20,8 @@ library:
       status: stable
       url: sketch://add-library/cloud/a324c6dd-df97-435e-b79f-3a29e04922fc
       action: link
+    carbon-white-figma:
+      $ref: './design-kits.yml#/designKits/carbon-white-sketch'
   navData:
     - title: A page
       path: '/a-page.mdx'

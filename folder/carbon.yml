@@ -30,6 +30,8 @@ library:
       $ref: '../../../../../../whatever-path'
     invalid-path-kit-name:
       $ref: './../whatever-path'
+    wrong-kit-ref:
+      $ref: '#/designKits/wrong-kit-ref'
   navData:
     - title: A page
       path: '/a-page.mdx'

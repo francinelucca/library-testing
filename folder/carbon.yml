@@ -26,8 +26,10 @@ library:
       $ref: https://unpkg.com/@carbon-platform/resources/carbon.yml#/designKits/carbon-g10-sketch
     carbon-white-adobe-xd:
       name: missing a lot of attributes
-    some-kit-name:
+    invalid-kit-name:
       $ref: '../../../../../../whatever-path'
+    invalid-path-kit-name:
+      $ref: './../whatever-path'
   navData:
     - title: A page
       path: '/a-page.mdx'

@@ -1,7 +1,7 @@
   # yaml-language-server: $schema=https://gist.githubusercontent.com/mattrosno/82ab63d4c2a709b3878a73b1f977a760/raw/202e9a0550bca3d08e3db9fb07097c14896915c6/carbon-resources.schema.json
 library:
-  id: invalid-library
-  name: Invalid Library
+  id: invalid-kits-library
+  name: Library With Invalid Kits
   description: React implementation of Carbon Components
   demoLinks:
     - type: storybook
@@ -26,6 +26,8 @@ library:
       $ref: https://unpkg.com/@carbon-platform/resources/carbon.yml#/designKits/carbon-g10-sketch
     carbon-white-adobe-xd:
       name: missing a lot of attributes
+    some-kit-name:
+      $ref: '../../../../../../whatever-path'
   navData:
     - title: A page
       path: '/a-page.mdx'

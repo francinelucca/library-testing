@@ -10,7 +10,7 @@ library:
       url: https://react.carbondesignsystem.com
   designKits:
     carbon-white-sketch:
-      $ref: '#/designKits/carbon-white-sketch'
+      $ref: '#/designKits/added-design-kit-1'
     carbon-g10-sketch:
       $ref: https://unpkg.com/@carbon-platform/resources/carbon.yml#/designKits/carbon-g10-sketch
     carbon-g90-sketch:

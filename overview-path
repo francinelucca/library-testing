@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://gist.githubusercontent.com/mattrosno/82ab63d4c2a709b3878a73b1f977a760/raw/202e9a0550bca3d08e3db9fb07097c14896915c6/carbon-resources.schema.json
+library:
+  id: overview-path-library
+  name: Overview Path Library
+  description: React implementation of Carbon Components
+assets:
+  accordion:
+    name: Accordion
+    description:
+      An accordion is a vertically stacked list of headers that reveal or hide associated sections
+      of content.
+    status: stable
+    type: component
+    tags:
+      - content-element
+      - data-display
+    framework: react
+    platform: web
+    docs:
+      overviewPath: './overview.mdx'

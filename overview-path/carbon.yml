@@ -3,6 +3,9 @@ library:
   id: overview-path-library
   name: Overview Path Library
   description: React implementation of Carbon Components
+  navData:
+  - title: A page
+    path: './overview.mdx'
 assets:
   accordion:
     name: Accordion

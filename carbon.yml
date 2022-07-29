@@ -22,7 +22,7 @@ library:
       action: link
     carbon-white-figma:
       $ref: './design-kits.yml#/designKits/carbon-white-sketch'
-    unallowed-design-kit: 
+    carbon-g10-sketch-kit: 
       $ref: https://unpkg.com/@carbon-platform/resources/carbon.yml#/designKits/carbon-g10-sketch
   navData:
     - title: A page

@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://gist.githubusercontent.com/mattrosno/82ab63d4c2a709b3878a73b1f977a760/raw/202e9a0550bca3d08e3db9fb07097c14896915c6/carbon-resources.schema.json
+library:
+  id: design-kit-inheritance-2
+  name: DesignKit Library with Inhertiance 2
+  description: This library should not inherit design kits
+  designKits:
+    carbon-g10-sketch:
+      $ref: https://unpkg.com/@carbon-platform/resources/carbon.yml#/designKits/carbon-g10-sketch
+    carbon-g90-sketch:
+      name: Sketch gray 90 theme
+      tool: sketch
+      type: ui
+      status: stable
+      url: sketch://add-library/cloud/a324c6dd-df97-435e-b79f-3a29e04922fc
+      action: link
+    carbon-g10-sketch-kit: 
+      $ref: https://unpkg.com/@carbon-platform/resources/carbon.yml#/designKits/carbon-g10-sketch
+assets:
+  accordion:
+    status: stable
+     framework: svelte

@@ -18,4 +18,4 @@ library:
 assets:
   accordion:
     status: stable
-     framework: svelte
+    framework: svelte

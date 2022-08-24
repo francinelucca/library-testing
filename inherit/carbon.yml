@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://unpkg.com/@carbon-platform/schemas@v1/carbon-resources.schema.json
+library:
+  id: design-kit-inheritance
+  name: Inherit DesignKit Library
+  description: This library inherits the other library
+  inherits: design-kit
+assets:
+  accordion:
+    status: stable
+    framework: vue

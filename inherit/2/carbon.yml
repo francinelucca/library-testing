@@ -3,6 +3,7 @@ library:
   id: design-kit-inheritance-2
   name: DesignKit Library with Inhertiance 2
   description: This library should not inherit design kits
+  inherits: design-kit
   designKits:
     carbon-g10-sketch:
       $ref: https://unpkg.com/@carbon-platform/resources/carbon.yml#/designKits/carbon-g10-sketch

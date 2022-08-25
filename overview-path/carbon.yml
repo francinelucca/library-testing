@@ -20,7 +20,7 @@ assets:
     framework: react
     platform: web
     docs:
-      overviewPath: './overview.mdx'
+      overviewPath: './overview-2.mdx'
   accordion-2:
     name: Accordion 2
     description:

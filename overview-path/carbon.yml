@@ -35,3 +35,15 @@ assets:
     platform: web
     docs:
       overviewPath: '../../../../../../overview.mdx'
+   accordion-3:
+    name: Accordion 3
+    description:
+      An accordion is a vertically stacked list of headers that reveal or hide associated sections
+      of content.
+    status: stable
+    type: component
+    tags:
+      - content-element
+      - data-display
+    framework: react
+    platform: web

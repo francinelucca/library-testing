@@ -20,7 +20,7 @@ assets:
     framework: react
     platform: web
     docs:
-      overviewPath: './overview-2.mdx'
+      overviewPath: 'https://github.com/francinelucca/library-testing/blob/main/overview-path/overview-2.mdx'
   accordion-2:
     name: Accordion 2
     description:
